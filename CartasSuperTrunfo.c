@@ -1,22 +1,112 @@
-#include <stdio.h>
+#include <stdio.h>;
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+
+int main(){
+   
+
+
+    char Estado; 
+    char Codígo [50]; 
+    char Nomecidade [50]; 
+    int  População; 
+    float Pib; 
+    float Númerodepontosturísticos; 
+
+
+    printf("Digite um Estado \n");
+
+    scanf("%s, &Estado");
+
+
+    printf("Coloque um código no seu Estado \n"); 
+
+    scanf("%s, &Codigo"); 
+
+
+    printf("Digite o nome da cidade \n ");
+
+    scanf("%s, &Nomecidade");
+
     
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    printf("Digite a população \n"); 
+
+    scanf("%d", &População);
+
+
+    printf("Digite o Pib \n");
+
+    scanf("%f, &Pib");
+
+
+    print("Quantos pontos turísticos tem? \n");
+
+    scanf("%f, &Númerodepontosturísticos");
+
+
+
+
+   
+
 
     return 0;
+
+}
+
+
+
+
+#include<stdio.h>;
+
+
+
+
+int main(){
+
+    char Estado;
+    char Codigo[50];
+    char Nomecidade;
+    int População; 
+    float Pib; 
+    float Númerodepontosturisticos; 
+
+
+    printf("Digite um Estado \n" ); 
+
+    scanf("%s, Estado");
+    
+    
+    printf("Digite um codigo no seu Estado \n");
+
+    scanf("%s, Codigo"); 
+
+
+    printf("Digite o nome da cidade \n"); 
+
+    scanf("%s, Nomecidade"); 
+
+
+    printf("Digite a população \n");
+
+    scanf("%d, Populaçaõ");
+
+
+    printf("Digite o Pib \n ");
+
+    scanf("%f, Pib");
+    
+    
+    printf("Quantos pontos turisticos tem?");
+
+    scanf("%f, Nímerodepontosturirsticos");
+
+
+   
+
+
+
+
+    
+   return 0; 
+
 }
